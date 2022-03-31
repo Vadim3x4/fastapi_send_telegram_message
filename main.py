@@ -3,8 +3,8 @@ from telethon.tl.types import InputPhoneContact
 from telethon.tl.functions.contacts import ImportContactsRequest
 from fastapi import FastAPI
 
-api_id = 18161990
-api_hash = '4c074998a235071109bad5ef400b14de'
+api_id = ''
+api_hash = 'x'
 client = TelegramClient('session_name', api_id, api_hash)
 
 
